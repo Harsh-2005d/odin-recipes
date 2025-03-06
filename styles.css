@@ -1,24 +1,88 @@
 
 body{
-    min-height: 100vh;
-    font-family: "Roboto"
+    
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    
+}
+ul{
+    justify-content: space-around;
+    display: flex;
+    width: 30%;
+}
+ul li{
+    align-self: center;
+    list-style: none;
+}
+ul a{
+    
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    
+    justify-content: space-around;
+    display: flex;
+    min-height: 5%;
+    background-color: #1f2937;
+
+}
+h1{
+    color: white;
 }
 .top-container{
+    display: flex;
+    justify-content: space-around;
     background-color: #1f2937;
+    min-height: 30%;
+    
+    padding-top: 5%;
+
 }
 .qoute{
     background-color: #e5e7eb;
+    min-height: 25%;
+}
+.signupdiv{
+    background-color: #3882f6;
+    
 }
 .signup{
-    background-color: #3882f6;
+    justify-content: center;
+    min-height: 10%;
 }
 .random-info-box{
-    width: 50px;
-    height: 50px;
-    border-color:  #3882f6;
-    border: 1rem;
+    height: 60px;
+    width: 60px;
+   
+    border: 4px #3882f6;
+    
+    min-height: 25%;
 }
 .info{
-    justify-content: space-between;
-    align-items: center;
+    min-height: 25%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+footer{
+    background-color: #1f2937;
+    min-height: 5%;
+}
+button{
+    color: white;
+    background-color: #3882f6;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    align-self: center ;
+    background-color: #e5e7eb;
+    min-height:50%;
 }
