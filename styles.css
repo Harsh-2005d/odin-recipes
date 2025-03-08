@@ -15,6 +15,8 @@ ul{
 ul li{
     align-self: center;
     list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 ul a{
     
@@ -30,7 +32,9 @@ ul a{
 
 }
 h1{
-    color: white;
+    font-size: 24px;
+    color: #f9faf8;
+
 }
 .top-container{
     display: flex;
@@ -44,27 +48,51 @@ h1{
 .qoute{
     background-color: #e5e7eb;
     min-height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.qoute-text{
+    font-size: 36px ;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+.author{
+    font-style: bolder;
+
 }
 .signupdiv{
     background-color: #3882f6;
-    
+    height: 7vh;
+    width: 80%;
+    border-radius: 1rem;
 }
 .signup{
+    display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 10%;
+
 }
+
 .random-info-box{
-    height: 60px;
-    width: 60px;
-   
-    border: 4px #3882f6;
+    height: 15vh;
+    width: 10vw;
     
-    min-height: 25%;
+    
+    border: 4px solid #3882f6;
+    
+    border-radius: 1rem;
 }
 .info{
-    min-height: 25%;
+
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
     
 }
 footer{
@@ -74,6 +102,11 @@ footer{
 button{
     color: white;
     background-color: #3882f6;
+    width: 100px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-style: bolder;
 
 }
 * {
@@ -85,4 +118,29 @@ button{
     align-self: center ;
     background-color: #e5e7eb;
     min-height:50%;
+}
+.info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 25vh;
+}
+.info-header,.info-text{
+    text-align: center;
+}
+.info-div{
+    max-width: 10vw;
+}
+.info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.top-text{
+    font-size: 48px;
+    
+}
+.top-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
 }
